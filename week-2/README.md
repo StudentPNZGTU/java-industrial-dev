@@ -15,3 +15,14 @@
 ### Проверка хранилища
 
 ![saved_post](https://github.com/StudentPNZGTU/java-industrial-dev/assets/143221017/2afc49a5-7b44-4792-a161-0e4fe5b42855)
+
+
+### Запуск Dockerfile
+```bash
+build -t example-docker-compose .
+```
+
+### Запуск Docker-Compose
+```bash
+docker compose up --build -d
+```
