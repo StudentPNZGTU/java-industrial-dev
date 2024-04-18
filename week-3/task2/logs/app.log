@@ -1,0 +1,70 @@
+16:29:57.379 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=USD
+16:29:57.390 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.224 [main] DEBUG - Response 200 OK
+16:29:58.231 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.238 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=RUB
+16:29:58.239 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.360 [main] DEBUG - Response 200 OK
+16:29:58.361 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.362 [main] DEBUG - Currency pair:
+USD-RUB
+16:29:58.449 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=USD
+16:29:58.450 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.453 [Thread-0] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/v2/histominute?limit=1&fsym=USD&tsym=RUB
+16:29:58.453 [Thread-0] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.567 [main] DEBUG - Response 200 OK
+16:29:58.568 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.568 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=RUB
+16:29:58.569 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.668 [main] DEBUG - Response 200 OK
+16:29:58.669 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.670 [main] DEBUG - Currency pair:
+USD-RUB
+16:29:58.671 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=USD
+16:29:58.672 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.672 [Thread-1] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/v2/histominute?limit=1&fsym=USD&tsym=RUB
+16:29:58.673 [Thread-1] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.784 [main] DEBUG - Response 200 OK
+16:29:58.785 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.786 [main] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=RUB
+16:29:58.787 [main] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.893 [main] DEBUG - Response 200 OK
+16:29:58.893 [Thread-0] DEBUG - Response 200 OK
+16:29:58.894 [main] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.894 [main] DEBUG - Currency pair:
+USD-RUB
+16:29:58.894 [Thread-0] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.897 [Thread-2] DEBUG - HTTP GET https://min-api.cryptocompare.com/data/v2/histominute?limit=1&fsym=USD&tsym=RUB
+16:29:58.898 [Thread-2] DEBUG - Accept=[text/plain, application/json, application/*+json, */*]
+16:29:58.922 [Thread-0] DEBUG - Fetched data from API json string:
+time=1713446880	price=88.14
+16:29:58.923 [Thread-0] DEBUG - Fetched data from API json string:
+time=1713446940	price=88.16
+16:29:58.995 [Thread-2] DEBUG - Response 200 OK
+16:29:58.996 [Thread-2] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:58.997 [Thread-2] DEBUG - Fetched data from API json string:
+time=1713446880	price=88.14
+16:29:58.997 [Thread-2] DEBUG - Fetched data from API json string:
+time=1713446940	price=88.16
+16:29:59.200 [Thread-1] DEBUG - Response 200 OK
+16:29:59.201 [Thread-1] DEBUG - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+16:29:59.202 [Thread-1] DEBUG - Fetched data from API json string:
+time=1713446880	price=88.14
+16:29:59.203 [Thread-1] DEBUG - Fetched data from API json string:
+time=1713446940	price=88.16
+16:30:05.899 [AWT-EventQueue-0] INFO  - Saved chart to input.csv
+21:24:10.256 [main] ERROR - Error reading data from file: /input.csv
+21:24:50.717 [main] ERROR - Error reading data from file: /input.csv
+21:25:15.507 [main] ERROR - Error reading data from file: /input.csv
+21:26:02.240 [main] INFO  - Successfully read data from file: /input.csv
+21:26:02.245 [main] INFO  - Successfully read data from file: /input.csv
+21:26:02.248 [main] INFO  - Successfully read data from file: /input.csv
+21:26:17.293 [AWT-EventQueue-0] ERROR - Error reading data from file: /input.csv
+22:14:40.558 [main] INFO  - Successfully read data from file: input.csv
+22:14:40.562 [main] INFO  - Successfully read data from file: input.csv
+22:14:40.567 [main] INFO  - Successfully read data from file: input.csv
+22:15:03.028 [AWT-EventQueue-0] INFO  - Saved chart to input.csv
+22:24:18.936 [main] INFO  - Successfully read data from file: input.csv
+22:24:18.942 [main] INFO  - Successfully read data from file: input.csv
+22:24:18.945 [main] INFO  - Successfully read data from file: input.csv
+22:24:24.622 [AWT-EventQueue-0] INFO  - Saved chart to input.csv
